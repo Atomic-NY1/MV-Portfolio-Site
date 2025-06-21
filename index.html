@@ -12,9 +12,9 @@
     nav { background: #34495e; text-align: center; padding: 0.6rem 0; position: fixed; top: 105px; width: 100%; z-index: 999; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
     nav a { margin: 0 1.5rem; text-decoration: none; color: #ecf0f1; font-weight: bold; font-size: 1rem; }
     nav a:hover { text-decoration: underline; }
+    .anchor { display: block; height: 160px; margin-top: -160px; visibility: hidden; }
     main { padding-top: 340px; }
     section { max-width: 800px; margin: 2rem auto; padding: 0 1rem; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
-    #about, #experience, #contact { scroll-margin-top: 180px; }
     h2 { color: #2c3e50; }
     footer { text-align: center; padding: 2rem 1rem; background: #ecf0f1; font-size: 0.9rem; margin-top: 2rem; }
   </style>
@@ -32,13 +32,15 @@
   </nav>
 
   <main>
-    <section id="about">
+    <div class="anchor" id="about"></div>
+    <section>
       <h2>About Me</h2>
       <p>I’m a systems-driven operations leader with 15+ years of experience across IT, compliance, and quality management. I’ve led ERP integrations, rescued production after ransomware attacks, and supported cross-functional teams in construction and manufacturing environments. I bridge the gap between tech and day-to-day business needs — calmly, reliably, and with real-world perspective.</p>
       <p>Outside of work, I’m a lifelong guitarist, astronomy enthusiast, and builder of things both digital and analog.</p>
     </section>
 
-    <section id="experience">
+    <div class="anchor" id="experience"></div>
+    <section>
       <h2>Career Highlights</h2>
       <ul>
         <li><strong>Operations Analyst – Penn Fabricators</strong>: Streamlined ERP usage (Moraware), supported CNC systems, handled VoIP/IT needs, and recovered operations after ransomware incident.</li>
@@ -47,7 +49,8 @@
       </ul>
     </section>
 
-    <section id="contact">
+    <div class="anchor" id="contact"></div>
+    <section>
       <h2>Contact</h2>
       <p>Email: <a href="mailto:markvolpe@email.com">markvolpe@email.com</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/mark-volpe" target="_blank">linkedin.com/in/mark-volpe</a></p>
